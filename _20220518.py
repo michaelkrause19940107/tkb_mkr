@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 print("hello")
 
 print("goodbye")
