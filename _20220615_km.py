@@ -1,7 +1,10 @@
 import csv
 
-csv_file = open("./TEST_STOCK.csv", "r", encoding="ms932", errors="", newline="" )
-#リスト形式
-f = csv.reader(csv_file, delimiter=",", doublequote=True, lineterminator="\r\n", quotechar='"', skipinitialspace=True)
-#辞書形式
-f = csv.DictReader(csv_file, delimiter=",", doublequote=True, lineterminator="\r\n", quotechar='"', skipinitialspace=True)
+# 読み込む CSV
+with open('./train.csv') as f:
+    reader = csv.reader(f)
+    for row in reader:
+        print(row)
+# ['11', '12', '13', '14']
+# ['21', '22', '23', '24']
+# ['31', '32', '33', '34']
