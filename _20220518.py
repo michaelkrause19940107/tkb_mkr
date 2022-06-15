@@ -1,1 +1,5 @@
-print("hellooo")
+print("hello")
+
+print("goodbye")
+
+print("Takubo")
