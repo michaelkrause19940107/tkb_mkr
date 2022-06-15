@@ -1,5 +1,6 @@
 import csv
 
+
 # 読み込む CSV
 with open('./train.csv') as f:
     reader = csv.reader(f)
